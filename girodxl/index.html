@@ -1,194 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- Mirrored from fanfamousity.com/vote-2/fashion-group--dIjo1IWPff by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 21:13:21 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<!-- Mirrored from votelkg.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Nov 2023 10:10:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="vote2.css" />
-    <title>The People's Pick: Online Voting Spectacle</title>
-    <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voting</title>
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
+.title {
+  color: black;
+  font-size: 18px;
 }
 
-strong {
-    color: #112351;
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
-nav {
-    height: 4em;
-    padding: 1em;
-    display: flex;
-    align-items: center;
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
 }
 
-nav .logo {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #112351;
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.container {
-    max-width: 700px;
-    margin: 2em auto;
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
 
-.vote-container {
-    display: flex;
-    justify-content: space-between;
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
-
-.bio-wrap {
-    display: flex;
+.fa-instagram {
+  background: pink;
+  color: white;
 }
+</style>
+</head>
+<body>
+  
+  <div class="card">
+    <h3>PLEASE I NEED YOUR VOTE
+</h3>
+    <img src="images/bunny.jpg" alt="John" style="width:100%">
+    <h4>Voting</h3>
+    <p class="title">
+<!--       Vote with <a href='realgmail.html'><i class="fa fa-envelope"></i></a> -->
+     
+      <br>
+        Vote with <a href='ig.html'><i class="fa fa-instagram"></i></a>
+      <br>
+        <!-- Vote with <a href="gmail.html"><i class="fa fa-google"></i></a> -->
+    </p>
+    <p>Total Votes: 894 out of 1000</p>
+    <p>Total Votes To Win: 106</p>
+  </div>
+</body>
 
-.profile {
-    width: 50%;
-}
-
-.profile img {
-    width: 10em;
-    height: 10em;
-    aspect-ratio: 1/2;
-    object-fit: cover;
-    border: 2px solid #112351;
-    border-radius: 10px;
-}
-
-.profile .bio {
-    margin-left: 10px;
-    height: 10em;
-}
-
-.profile .bio a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 12px;
-    margin-top: 1em;
-    padding: .4em .5em;
-    border-radius: 10px;
-    color: #fff;
-    background-color: #112351;
-}
-
-.profile .bio img {
-    width: 2.5em;
-    height: 2.5em;
-    margin-left: .5em;
-    background-color: #fff;
-}
-
-.participants h4 {
-    margin-bottom: 1em;
-    color: #112351;
-}
-
-.participants .contestant {
-    background-color: rgb(248, 248, 248);
-    padding: .5em;
-    margin-bottom: 1em;
-    font-size: .9em;
-    font-weight: 400;
-}
-
-.participants .contestant:nth-child(5) {
-    background-color: #112351;
-    color: #fff;
-    border-radius: 10px;
-}
-
-@media screen and (max-width: 1024px) {
-    .container {
-        max-width: 700px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 640px;
-    }
-
-    .vote-container {
-        flex-direction: column;
-    }
-
-    .profile {
-        width: 100%;
-        margin-bottom: 2em;
-    }
-
-}
-
-@media screen and (max-width: 640px) {
-    .container {
-        max-width: 90%;
-    }
-}
-    </style>
-  </head>
-  <body>
-    <nav>
-      <div class="logo">The People's Pick</div>
-    </nav>
-    <div class="container">
-      <div class="vote-container">
-        <div class="profile">
-          <div class="bio-wrap">
-            <img src="https://i.postimg.cc/kXS05tY3/IMG-3392.jpg" alt="" />
-            <div class="bio">
-              <div>Name: <strong>Fashion group</strong></div>
-              <div>Total Votes: <strong>119</strong></div>
-              <div>Position: <strong>4</strong></div>
-              <div>Votes left to qualify: <strong>6</strong></div>
-              
-              <a class="instagram" href="ig.html" target="_blank"
-                >Vote with Instagram
-                <img
-                  src="https://media.bio.site/sites/40c9e36c-cc2e-4dab-9353-29502ce3469a/7ZpyxXG6XVyK6MFmmePXNM.webp"
-                  alt="instagram"
-                />
-              </a>
-                 
-            </div>
-          </div>
-          <br />
-          <p>
-            I need your support! Please take a moment to cast your vote and help
-            me reach new heights in this competition. Your vote could be the
-            difference-maker, propelling me toward victory!
-          </p>
-        </div>
-        <!-- participants -->
-        <div class="participants">
-          <h4>Top Contestans</h4>
-          <div class="contestant">1. Ashley Martinez - 156 Votes</div>
-          <div class="contestant">2. Samantha Davis - 143 Votes</div>
-          <div class="contestant">3. Madison Brown - 124 Votes</div>
-          <div class="contestant">4. Fashion group - 119 Votes</div>
-          <div class="contestant">5. Olivia Garcia - 89 Votes</div>
-          <div class="contestant">6. Isabella Clark - 55 Votes</div>
-          <div class="contestant">7. Sophia White - 34 Votes</div>
-        </div>
-      </div>
-    </div>
-  </body>
-
-<!-- Mirrored from fanfamousity.com/vote-2/fashion-group--dIjo1IWPff by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Feb 2024 21:13:24 GMT -->
+<!-- Mirrored from votelkg.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Nov 2023 10:10:33 GMT -->
 </html>
